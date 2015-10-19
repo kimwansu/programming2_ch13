@@ -95,7 +95,7 @@ int find_empty_phoneNum()
 
 int is_full_directory()
 {
-    if (find_empty_phoneNum == -1)
+    if (find_empty_phoneNum() == -1)
         return 1;
     else
         return 0;
